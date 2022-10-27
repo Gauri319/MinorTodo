@@ -1,0 +1,32 @@
+*{
+  padding:0
+  margin:0
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+  background-image: url(https://www.freevector.com/uploads/vector/preview/8610/FreeVector-Vector-Background-With-Circles.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height:3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
